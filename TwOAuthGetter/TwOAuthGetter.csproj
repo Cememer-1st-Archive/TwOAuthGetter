@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <Authors>Cememer</Authors>
+    <Company>N/A</Company>
+    <Product></Product>
+    <Description>A crappy program to get Twitter OAuth easily.</Description>
+    <Copyright>Copyright © 2021 Cememer</Copyright>
+    <PackageProjectUrl>https://github.com/Cememer/TwOAuthGetter/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Cememer/TwOAuthGetter/</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CoreTweet" Version="1.0.0.483" />
+  </ItemGroup>
+
+</Project>
